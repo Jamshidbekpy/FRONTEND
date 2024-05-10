@@ -1,0 +1,106 @@
+body{
+    margin-top: auto;
+    background-image: url(/image_icon/office2.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    margin: auto;
+    border: rgb(232, 55, 55) solid 2px;
+    height:100px;
+    width: 100%;
+    
+
+}
+nav{
+    margin: auto;
+    height: 30px;
+    width: 100%;
+}
+section{
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    height: 500px;
+    width: 60%;
+    float:left
+}
+aside{
+    border:green solid 5px;
+    text-align: center;
+    height: 500px;
+    width: 39%;
+    float: right;
+}
+footer{
+    margin: auto;
+    border:rgb(41, 210, 229) solid 5px;
+    background-color: rgb(47, 78, 255);
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+.font_1{
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    margin: 2px;
+    margin-right: 10px; /* Rasm va matn orasidagi bo'shlikni o'rnatish */
+
+}
+@keyframes colorRotate {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: yellow; }
+    100% { color: red; }
+}
+
+.font_1 span {
+    animation: colorRotate 5s infinite linear;
+}
+
+.font_1 img{
+    border-radius: 50%;
+
+}
+.font_2{
+    margin: 3px;
+    text-align: center;
+}
+.font_3{
+    background-color: #e5e2e6;
+    height: 30px;
+    margin: 0px 0px 0px 0px;
+    width: 25%;
+    color:rgb(19, 15, 212);
+    float:left;
+    text-align: center;
+    border: 1px solid rgb(230, 81, 136);
+}
+@keyframes cursorColorRotate {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: yellow; }
+    100% { color: red; }
+}
+
+.font_3:hover {
+    animation: cursorColorRotate 5s infinite linear;
+}
+.font_3:hover {
+    background-color: #b138d9; /* Orqa fon rangi */
+}
+.font_4{
+    margin: 0px 0px 0px 0px;
+    width: 50%;
+    height: 30px;
+    color:rgb(10, 140, 42);
+    float:left;
+    text-align: center;
+    border: 1px solid rgb(230, 81, 188);
+}
+.font_4:hover {
+    background-color: #38c4d9; /* Orqa fon rangi */
+}
